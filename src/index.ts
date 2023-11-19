@@ -22,7 +22,7 @@ server.listen(8080, () => {
 });
 
 const MONGO_URL =
-  "mongodb+srv://inhoob:0itZpLpjHCHVHnZk@cluster0.j2bpvke.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://inhoob:<yourpassword>@cluster0.j2bpvke.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
